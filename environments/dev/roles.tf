@@ -12,7 +12,7 @@ resource "google_project_iam_custom_role" "dialogflow_gia_client" {
         "dialogflow.sessions.detectIntent",
         "dialogflow.sessions.streamingDetectIntent",
     ]
-    project = var.project
+    project = "${var.project}"
     role_id     = "DialogflowAPIGIAClient"
     stage       = "GA"
     title       = "Dialogflow API GIA CLIENT"
