@@ -36,8 +36,10 @@ steps:
       else
         for dir in environments/*/
         do 
+          echo ${dir} 
           cd ${dir}   
           env=${dir%*/}
+          echo ${env}
           env=${env#*/}
           echo ""
           echo "*************** TERRAFORM INIT ******************"
