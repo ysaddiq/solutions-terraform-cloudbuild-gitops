@@ -13,9 +13,4 @@
 # limitations under the License.
 
 
-terraform {
-  backend "gcs" {
-    bucket = "my-project-1371-consumer-tfstate"
-    prefix = "env/dev"
-  }
-}
+variable "project" {}
