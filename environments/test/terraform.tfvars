@@ -1,1 +1,1 @@
-project="my-project-1371-consumer"
+project="my-project-25488-resource-test"
