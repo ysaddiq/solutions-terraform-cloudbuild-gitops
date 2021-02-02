@@ -14,8 +14,5 @@
 
 
 terraform {
-  backend "gcs" {
-    bucket = "my-project-1371-consumer-tfstate"
-    prefix = "env/dev"
-  }
+  required_version = "~> 0.11.0"
 }
