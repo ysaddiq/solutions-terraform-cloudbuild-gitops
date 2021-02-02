@@ -15,5 +15,5 @@ resource "google_project_iam_custom_role" "dialogflow_gia_client" {
     project = "${var.project}"
     role_id     = "dialogflow.giaclient"
     stage       = "GA"
-    title       = "Dialogflow API GIA CLIENT"
+    title       = "Dialogflow API GIA Client"
 }
